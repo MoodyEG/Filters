@@ -81,7 +81,7 @@ const copy = {
     contact: {
       title: "تواصل معنا",
       subtitle: "نجهز عروض أسعار سريعة ونوفر دعم فني مباشر.",
-      ownerLabel: "المالك",
+      ownerLabel: "الإدارة",
       phoneLabel: "الهاتف",
       whatsappLabel: "واتساب",
       addressLabel: "العنوان",
@@ -154,7 +154,7 @@ const copy = {
     contact: {
       title: "Get in Touch",
       subtitle: "Fast quotes and direct technical support.",
-      ownerLabel: "Owner",
+      ownerLabel: "Management",
       phoneLabel: "Phone",
       whatsappLabel: "WhatsApp",
       addressLabel: "Address",
@@ -823,8 +823,12 @@ function App() {
                       <p className="text-sm text-(--muted)]">
                         {t.contact.phoneLabel}
                       </p>
-                      <a className="font-semibold" href="tel:+01002553733">
-                        +01002553733
+                      <a className="font-semibold" href="tel:01002553733">
+                        01002553733
+                      </a>
+                      <span className="mx-1 text-(--muted)"> - </span>
+                      <a className="font-semibold" href="tel:01208626234">
+                        01208626234
                       </a>
                     </div>
                   </div>
@@ -840,7 +844,16 @@ function App() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        +01208626234
+                        01208626234
+                      </a>
+                      <span className="mx-1 text-(--muted)"> - </span>
+                      <a
+                        className="font-semibold"
+                        href="https://wa.me/01002553733"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        01002553733
                       </a>
                     </div>
                   </div>
@@ -852,8 +865,8 @@ function App() {
                       </p>
                       <p className="font-semibold">
                         {isArabic
-                          ? "٣٧ ش عماد الدين، عمارة النهضة، القاهرة"
-                          : "37 Emad El Din St, Nahda Building, Cairo"}
+                          ? "٣٧ ش عماد الدين، ناصية رمسيس، عمارة النهضة، القاهرة"
+                          : "37 Emad El Din St, Ramsis Corner, Nahda Building, Cairo"}
                       </p>
                     </div>
                   </div>
